@@ -34,6 +34,13 @@ Take a look a the [Demo Project](/SwipeCards.Demo.Forms) in this repository for 
 ![Preview](/Design/Swipe Card Demo Android.mp4)
 ![Preview](/Design/Swipe Cards Demo iOS.mp4)
 
+## Demo
+Take a look a the [Demo Project](/SwipeCards.Demo.Forms) in this repository for a full sample.
+
+
+![Demo](/Design/Swipe Card Demo Android.mp4)
+![Demo](/Design/Swipe Cards Demo iOS.mp4)
+
 
 ## API Reference
 | Method | Description |

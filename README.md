@@ -31,16 +31,15 @@ xmlns:swipecards="clr-namespace:SwipeCards.Controls;assembly=SwipeCards.Controls
 Take a look a the [Demo Project](/SwipeCards.Demo.Forms) in this repository for a full sample.
 
 ![Preview](/Design/Swipecards.gif)
-![Preview](/Design/Swipe Card Demo Android.mp4)
-![Preview](/Design/Swipe Cards Demo iOS.mp4)
-
-## Demo
-Take a look a the [Demo Project](/SwipeCards.Demo.Forms) in this repository for a full sample.
 
 
-![Demo](/Design/Swipe Card Demo Android.mp4)
-![Demo](/Design/Swipe Cards Demo iOS.mp4)
+## Vide Demo
+Take a look a the below path in this repository for real experiance of demo in both Android and iOS platforms.
 
+```
+ Swipe-Card-Demo-Xamarin.Forms-/Design/Design/Swipe Card Demo Android.mp4
+ Swipe-Card-Demo-Xamarin.Forms-/Design/Design/Swipe Cards Demo iOS.mp4
+```
 
 ## API Reference
 | Method | Description |

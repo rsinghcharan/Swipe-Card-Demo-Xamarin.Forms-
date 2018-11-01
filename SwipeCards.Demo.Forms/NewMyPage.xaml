@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SwipeCards.Demo.Forms.NewMyPage" xmlns:swipecards="clr-namespace:SwipeCards.Controls;assembly=SwipeCards.Controls" xmlns:local="clr-namespace:SwipeCards.Demo.Forms" Title="SwipeCards Demo" x:Name="Template" BackgroundColor="#EEEEEE">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="20" />
+        </Grid.RowDefinitions>
+        <swipecards:CardStackView x:Name="CardStackView" ItemsSource="{Binding SwipeCards,Mode=TwoWay}" CardSelectedCommand="{Binding SelectCardCommand}" HeightRequest="260" WidthRequest="300" VerticalOptions="Center" HorizontalOptions="Center">
+            <swipecards:CardStackView.ItemTemplate>
+                <DataTemplate>
+                    <Grid RowSpacing="0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="120" />
+                            <RowDefinition Height="60" />
+                            <RowDefinition Height="40" />
+                        </Grid.RowDefinitions>
+                        <Image Source="{Binding url}" HeightRequest="120" WidthRequest="120" VerticalOptions="Center" HorizontalOptions="Center" />
+                        <Label Grid.Row="1" Text="{Binding name}" VerticalOptions="Center" HorizontalOptions="Start" FontAttributes="Bold" FontSize="22" />
+                        <Label Grid.Row="2" Text="{Binding email}" VerticalOptions="Center" HorizontalOptions="Start" FontSize="18" />
+                    </Grid>
+                </DataTemplate>
+            </swipecards:CardStackView.ItemTemplate>
+        </swipecards:CardStackView>
+        <Button Grid.Row="1" Clicked="RestartButton_Clicked" VerticalOptions="Center" HorizontalOptions="Center" Text="RESET CARDS" FontAttributes="Bold" FontSize="24" TextColor="Gray">
+        </Button>
+        <BoxView Grid.Row="2">
+        </BoxView>
+    </Grid>
+</ContentPage>

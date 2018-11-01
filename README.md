@@ -1,5 +1,5 @@
-# Swipecards
-A Tinder control for Xamarin.Forms that supports iOS, Android and UWP.
+# SwipeCards
+A Demo control for Xamarin.Forms that supports iOS, Android and UWP.
 
 [![NuGet](https://img.shields.io/nuget/v/Forms.Controls.SwipeCards.svg?label=NuGet&style=flat-square)](https://www.nuget.org/packages/Forms.Controls.SwipeCards/)
 
@@ -31,6 +31,9 @@ xmlns:swipecards="clr-namespace:SwipeCards.Controls;assembly=SwipeCards.Controls
 Take a look a the [Demo Project](/SwipeCards.Demo.Forms) in this repository for a full sample.
 
 ![Preview](/Design/Swipecards.gif)
+![Preview](/Design/Swipe Card Demo Android.mp4)
+![Preview](/Design/Swipe Cards Demo iOS.mp4)
+
 
 ## API Reference
 | Method | Description |
@@ -45,6 +48,7 @@ Take a look a the [Demo Project](/SwipeCards.Demo.Forms) in this repository for 
 |-|-|-|
 | SwipedLeftCommand | Selected Item | Triggered, when card got swiped to the left |
 | SwipedRightCommand | Selected Item | Triggered, when card got swiped to the right |
+
 
 | Event | Arguments | Description |
 |-|-|-|
